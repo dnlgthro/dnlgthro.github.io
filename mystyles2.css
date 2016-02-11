@@ -1,0 +1,165 @@
+#container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: #962D3E;
+    font-weight: 200;
+}
+nav { 
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 200;
+    text-align: center;
+     
+   
+}
+
+ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 0;
+    overflow: hidden;
+    margin: auto;
+    align-content: center;
+    background-color: #046380;
+    border-radius: 0;
+    width: 100%;
+        
+}
+
+li {
+    display: inline-block;
+    
+  
+}
+
+nav li a {
+    display: block;
+    color: #EFECCA;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    color: #962D3E;
+    background-color: #EFECCA;
+}
+
+.active {
+    background-color: #EFECCA;
+}
+
+#content {
+    font-family: Helvetica, Arial, sans-serif;
+    width: 64%;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin: auto;
+    text-align: left;
+       
+}
+
+#content2 {
+    font-family: Helvetica, Arial, sans-serif;
+    width: 64%;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin: auto;
+    text-align: left;
+       
+}
+
+#content h3 {
+    color: #962D3E;
+    font-weight: 100;
+}
+
+#content2 h3 {
+    color: #962D3E;
+    font-weight: 100;
+}
+
+
+
+ol {
+    padding-top: 3%;
+    padding-bottom: 3%;
+     font-family: Helvetica, Arial, sans-serif;
+}
+
+ol li {
+    text-align: left;
+   display: inline;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+#list li a {
+    text-align: left;
+   display: inline;
+    padding-top: 10px;
+    color: black;
+   
+     font-family: Helvetica, Arial, sans-serif;
+}
+
+
+#sidebar {
+   color: #EFECCA;
+    float: right;
+    width: 14%;
+    padding: 3%;
+    background-color: #046380;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    
+   
+}
+
+#sidebar h3 {
+    font-weight: 100;
+    
+}
+figure { 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    clear: both;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    text-align: center;
+    color: #EFECCA;
+    background-color: #046380;
+           
+}
+
+footer a {
+    text-decoration: none;
+    color: #EFECCA;
+}
+
+@media all and (max-width : 768px) {
+    header {
+        text-align: center;
+    }
+    
+    nav {
+        text-align: center;
+    }
+    
+    #content {
+    font-family: Helvetica, Arial, sans-serif;
+    width: 76%;
+    padding: 3% 12% 3% 12%;
+    margin: auto;
+    }
+    aside {
+        display: none;
+    }
+}
