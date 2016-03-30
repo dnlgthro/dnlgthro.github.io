@@ -1,0 +1,119 @@
+/* current playlist screen media */
+/*  
+ * font stacks from - 10 definitive font stacks
+ * http://georgebutler.com/blog/typography/10-definitive-web-font-stacks-for-designers/
+*/
+/* portfolio style -- portfolio-04.css */
+
+/* responsive code from codeitdown.com */
+
+article {
+    margin: 5px 70px 100px 80px;
+}
+section p, ul, ol {
+    font-family: "Century Gothic", "Tw Cen MT", Futura, "URW Gothic L", Arial, sans-serif;
+    font-size: 1.1em;
+    line-height: 1.5;
+    }
+blockquote p {
+    font-family: courier, fixed, monospace;
+    font-size: 1.4em;
+    color: #493e8e;
+}
+span.normal {
+    font-family: "Century Gothic", "Tw Cen MT", Futura, "URW Gothic L", Arial, sans-serif;
+    font-size: smaller;
+}
+
+@media(max-width: 1580px) {
+    section p, ul, ol {
+    font-size: 1.0em;
+    line-height: 1.4;
+    }
+    blockquote p {
+    font-size: 1.2em;
+}
+}    
+
+@media(max-width: 980px) {
+    article p, ul, ol {
+    font-size: 0.9em;
+    line-height: 1.3;
+    }
+        blockquote p {
+    font-size: 1.1em;
+}
+    aside {
+        display: none;
+    }
+    figure {
+        display: none;
+    }
+    nav ul {
+    display: block;
+
+    }
+    nav ul li {
+    display: block;
+    }
+    nav ul li a {
+    padding-left: 125px;
+    padding-right: 25px; 
+    border: 1px dashed gray;
+    font-size: large;
+    display: block;
+    width: 400px;
+    }
+    article {
+    margin: 5px 30px 100px 30px;
+    }
+}    
+
+/* main body code */
+
+h1 {
+    font-family: "Century Gothic", "Tw Cen MT", Futura, "URW Gothic L", Arial, sans-serif;
+    font-size:32px;
+    padding-left: 0px;
+    color: #8B2213;
+}
+h2 {
+    font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
+    color: #344C9D;
+    font-size: 28px;
+    font-weight: bold;
+    
+    padding-left: 0px;
+}
+h3, h4 {
+    font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
+    color: #a64848;
+    font-size: 22px;
+    font-weight: bold;
+    padding-left: 0px;
+    font-variant: small-caps;
+}
+
+/* figures */
+figure {
+    max-width: 250px;
+    min-width: 150px;
+    float: right;
+    padding: ;
+    background-color: #efefef;
+    border: ;
+    opacity: 0.9;
+    text-align: center;
+    box-shadow: 3px 3px 5px 6px #ccc;
+    
+}
+figure img {
+     opacity: 0.9;
+     width: 100%;
+}
+
+section {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
