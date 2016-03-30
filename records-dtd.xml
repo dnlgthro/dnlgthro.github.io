@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="records.xsl"?>
+<!DOCTYPE playlist [
+<!ELEMENT playlist (album+)>
+<!ELEMENT album (title, artist, year, genre, description, source, rating, image)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT artist (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT genre (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT source (#PCDATA)>
+<!ELEMENT rating (#PCDATA)>
+<!ELEMENT image (#PCDATA)>          
+<!ATTLIST album
+    id ID #REQUIRED
+    >
+<!ATTLIST artist 
+    ref CDATA #IMPLIED
+    >
+<!ATTLIST rating 
+    n CDATA #IMPLIED
+    >
+]>
+
+<playlist>
+    <album id="a01">
+        <title>Adventure</title>
+        <artist ref="television">Television</artist>
+        <year>1978</year>
+        <genre>Art punk</genre>
+        <description>'Carried Away', 'The Dream's Dream'</description>
+        <source></source>
+        <rating n="4"></rating>
+        <image>adventure.jpg</image>
+    </album>
+    <album id="a02">
+        <title>Aja</title>
+        <artist ref="steelydan">Steely Dan</artist>
+        <year>1977</year>
+        <genre>Jazz rock</genre>
+        <description>'Aja', 'Peg'</description>
+        <source></source>
+        <rating n="3"></rating>
+        <image>aja.jpg</image>
+    </album>
+    <album id="a03">
+        <title>Album</title>
+        <artist ref="girls">Girls</artist>
+        <year>2009</year>
+        <genre>Rock</genre>
+        <description>'Summertime', 'Hellhole Ratrace'</description>
+        <source></source>
+        <rating n="4"></rating>
+        <image>girlsalbum.jpg</image>
+    </album>
+    <album id="a04">
+        <title>And then nothing turned itself inside-out</title>
+        <artist ref="yolatengo">Yo La Tengo</artist>
+        <year>2000</year>
+        <genre>Rock</genre>
+        <description>'Cherry Chapstick', 'You Can Have It All'</description>
+        <source></source>
+        <rating n="5"></rating>
+        <image>yolatengo.jpg</image>
+    </album>
+    <album id="a05">
+        <title>Art Angels</title>
+        <artist ref="grimes">Grimes</artist>
+        <year>2015</year>
+        <genre>Art Pop</genre>
+        <description>'Realiti'</description>
+        <source></source>
+        <rating n="3"></rating>
+        <image>grimes.jpg</image>
+    </album>
+    <album id="a06">
+        <title>Badlands</title>
+        <artist ref="dirtybeaches">Dirty Beaches</artist>
+        <year>2011</year>
+        <genre>Rock</genre>
+        <description>'Sweet 17', 'True Blue'</description>
+        <source></source>
+        <rating n="3"></rating>
+        <image>badlands.jpg</image>
+    </album>
+    <album id="a07">
+        <title>Bruised Orange</title>
+        <artist ref="prine">John Prine</artist>
+        <year>1978</year>
+        <genre>Folk and country</genre>
+        <description>'Sabu Visists the Twin Cities All Alone'</description>
+        <source></source>
+        <rating n="3"></rating>
+        <image>bruisedorange.jpg</image>
+    </album>
+    <album id="a08">
+        <title>Continente Nero</title>
+        <artist ref="umiliani">Piero Umiliani</artist>
+        <year>1975</year>
+        <genre>Jazz</genre>
+        <description>'Nel Villaggio'</description>
+        <source></source>
+        <rating n="3"></rating>
+        <image>nero.jpg</image>
+    </album>
+    <album id="a09">
+        <title>Cupid Deluxe</title>
+        <artist ref="bloodorange">Blood Orange</artist>
+        <year>2013</year>
+        <genre>R&amp;B</genre>
+        <description>'Chamakay', 'It Is What It Is'</description>
+        <source></source>
+        <rating n="3"></rating>
+        <image>cupiddeluxe.jpg</image>
+    </album>
+    <album id="a10">
+        <title>Depression Cherry</title>
+        <artist ref="beachhouse">Beach House</artist>
+        <year>2015</year>
+        <genre>Dream pop</genre>
+        <description>'Levitation', 'Sparks'</description>
+        <source></source>
+        <rating n="3"></rating>
+        <image>depressioncherry.jpg</image>
+    </album>
+    <album id="a11">
+        <title>Electric Mud</title>
+        <artist ref="muddy">Muddy Waters</artist>
+        <year>1968</year>
+        <genre>Psychedelic Rock</genre>
+        <description>'Mannish Boy', 'Herbert Harper's Free Press News'</description>
+        <source></source>
+        <rating n="3"></rating>
+        <image>electricmud.jpg</image>
+    </album>
+    <album id="a12">
+        <title>Family Gathering</title>
+        <artist ref="valdy">Valdy</artist>
+        <year>1974</year>
+        <genre>Folk and country</genre>
+        <description>'One in the Spirit', 'Hello Mr. Record Man', Let Go of Me/Simple Life'</description>
+        <source></source>
+        <rating n="3"></rating>
+        <image>valdy.jpg</image>
+    </album>
+    <album id="a13">
+        <title>Fleet Foxes</title>
+        <artist ref="fleetfoxes">Fleet Foxes</artist>
+        <year>2008</year>
+        <genre>Folk and country</genre>
+        <description>'White Winter Hymnal', 'He Doesn't Know Why'</description>
+        <source></source>
+        <rating n="3"></rating>
+        <image>fleetfoxes.jpg</image>
+    </album>
+    <album id="a14">
+        <title>For the Sake of the Song</title>
+        <artist ref="zandt">Townes van Zandt</artist>
+        <year>1968</year>
+        <genre>Folk and country</genre>
+        <description>'Wating 'Round to Die', 'I'll Be There in the Morning', 'For the Sake of the Song'</description>
+        <source></source>
+        <rating n="3"></rating>
+        <image>forthesakeofthesong.jpg</image>
+    </album>
+    <album id="a15">
+        <title>Hair</title>
+        <artist ref="ty">Ty Segall &amp; White Fence</artist>
+        <year>2012</year>
+        <genre>Psychedelic Rock</genre>
+        <description>'Scissor People', 'I Can't Get Around You', 'I Am Not a Game'</description>
+        <source></source>
+        <rating n="3"></rating>
+        <image>hair.jpg</image>
+    </album>
+    <album id="a16">
+        <title>Hats</title>
+        <artist ref="bluenile">The Blue Nile</artist>
+        <year>1989</year>
+        <genre>Dream Pop</genre>
+        <description>'The Downtown Lights'</description>
+        <source></source>
+        <rating n="3"></rating>
+        <image>hats.jpg</image>
+    </album>
+    <album id="a17">
+        <title>Hi-Fi Ellington Uptown</title>
+        <artist ref="ellington">Duke Ellington and His Orchestra</artist>
+        <year>1956</year>
+        <genre>Jazz</genre>
+        <description>'Take the 'A' Train''</description>
+        <source></source>
+        <rating n="3"></rating>
+        <image>hifiellington.jpg</image>
+    </album>
+    <album id="a18">
+        <title>Drifters / Love is the Devil</title>
+        <artist ref="dirtybeaches">Dirty Beaches</artist>
+        <year>2013</year>
+        <genre>Rock</genre>
+        <description>'Casino Lisboa', 'Night Walk'</description>
+        <source></source>
+        <rating n="3"></rating>
+        <image>drifters.jpg</image>
+    </album>
+    <album id="a19">
+        <title>I Left Love Behind a Long Time Ago</title>
+        <artist ref="stance">The Stance</artist>
+        <year>2010</year>
+        <genre>Rock</genre>
+        <description>'Jenny Jitters'</description>
+        <source></source>
+        <rating n="3"></rating>
+        <image>thestance.jpg</image>
+    </album>
+    <album id="a20">
+        <title>I Love You, Honeybear</title>
+        <artist ref="fatherjohnmisty">Father John Misty</artist>
+        <year>2015</year>
+        <genre>Rock</genre>
+        <description>'The Night Josh Tillman Came to Our Apt.', 'Bored in the USA'</description>
+        <source></source>
+        <rating n="3"></rating>
+        <image>honeybear.jpg</image>
+    </album>
+    <album id="a21">
+        <title>In My Own Time</title>
+        <artist ref="dalton">Karen Dalton</artist>
+        <year>1971</year>
+        <genre>Blues and roots</genre>
+        <description>'Something On Your Mind'</description>
+        <source></source>
+        <rating n="3"></rating>
+        <image>inmyowntime.jpg</image>
+    </album>
+    <album id="a22">
+        <title>Jackrabbit Slim</title>
+        <artist ref="forbert">Steve Forbert</artist>
+        <year>1979</year>
+        <genre>Rock</genre>
+        <description>'Romeo's Tune'</description>
+        <source></source>
+        <rating n="3"></rating>
+        <image>jackrabbitslim.jpg</image>
+    </album>
+    <album id="a23">
+        <title>Jackson C. Frank</title>
+        <artist ref="frank">Jackson C. Frank</artist>
+        <year>1965</year>
+        <genre>Folk and country</genre>
+        <description>'Blues Run the Game', 'Kimbie'</description>
+        <source></source>
+        <rating n="3"></rating>
+        <image>jacksoncfrank.jpg</image>
+    </album>
+    <album id="a24">
+        <title>Kaputt</title>
+        <artist ref="destroyer">Destroyer</artist>
+        <year>2011</year>
+        <genre>Art pop</genre>
+        <description>'Kaputt', 'Suicide Demo for Kara Walker'</description>
+        <source></source>
+        <rating n="3"></rating>
+        <image>kaputt.jpg</image>
+    </album>
+    <album id="a25">
+        <title>Live at the Old Quarter, Houston, Texas</title>
+        <artist ref="zandt">Townes van Zandt</artist>
+        <year>1977</year>
+        <genre>Folk and country</genre>
+        <description>'Rex's Blues', 'If I Needed You', 'Tecumseh Valley'</description>
+        <source></source>
+        <rating n="3"></rating>
+        <image>oldquarter.jpg</image>
+    </album>
+    <album id="a26">
+        <title>Marquee Moon</title>
+        <artist ref="television">Television</artist>
+        <year>1977</year>
+        <genre>Art rock</genre>
+        <description>'Marquee Moon', 'Friction'</description>
+        <source></source>
+        <rating n="3"></rating>
+        <image>marqueemoon.jpg</image>
+    </album>
+    <album id="a27">
+        <title>Our Mother the Mountain</title>
+        <artist ref="zandt">Townes van Zandt</artist>
+        <year>1969</year>
+        <genre>Folk and country</genre>
+        <description>'Be Here to Love Me'</description>
+        <source></source>
+        <rating n="3"></rating>
+        <image>oldquarter.jpg</image>
+    </album>
+    <album id="a28">
+        <title>Live at the Old Quarter, Houston, Texas</title>
+        <artist ref="zandt">Townes van Zandt</artist>
+        <year>1977</year>
+        <genre>Folk and country</genre>
+        <description>'Rex's Blues', 'If I Needed You', 'Tecumseh Valley'</description>
+        <source></source>
+        <rating n="3"></rating>
+        <image>oldquarter.jpg</image>
+    </album>
+    <album id="a29">
+        <title>Live at the Old Quarter, Houston, Texas</title>
+        <artist ref="zandt">Townes van Zandt</artist>
+        <year>1977</year>
+        <genre>Folk and country</genre>
+        <description>'Rex's Blues', 'If I Needed You', 'Tecumseh Valley'</description>
+        <source></source>
+        <rating n="3"></rating>
+        <image>oldquarter.jpg</image>
+    </album>
+    <album id="a30">
+        <title>Live at the Old Quarter, Houston, Texas</title>
+        <artist ref="zandt">Townes van Zandt</artist>
+        <year>1977</year>
+        <genre>Folk and country</genre>
+        <description>'Rex's Blues', 'If I Needed You', 'Tecumseh Valley'</description>
+        <source></source>
+        <rating n="3"></rating>
+        <image>oldquarter.jpg</image>
+    </album>
+</playlist>
