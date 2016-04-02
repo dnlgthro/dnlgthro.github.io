@@ -28,8 +28,8 @@
         <artist ref="television">Television</artist>
         <year>1978</year>
         <genre>Art punk</genre>
-        <description>'Carried Away', 'The Dream's Dream'</description>
-        <source></source>
+        <description>'Carried Away'</description>
+        <source>https://www.youtube.com/watch?v=rIbweWhtLW0</source>
         <rating n="4"></rating>
         <image>adventure.jpg</image>
     </album>
@@ -38,8 +38,8 @@
         <artist ref="steelydan">Steely Dan</artist>
         <year>1977</year>
         <genre>Jazz rock</genre>
-        <description>'Aja', 'Peg'</description>
-        <source></source>
+        <description>'Aja'</description>
+        <source>https://www.youtube.com/watch?v=fG2seugAgnU</source>
         <rating n="3"></rating>
         <image>aja.jpg</image>
     </album>
@@ -48,8 +48,8 @@
         <artist ref="girls">Girls</artist>
         <year>2009</year>
         <genre>Rock</genre>
-        <description>'Summertime', 'Hellhole Ratrace'</description>
-        <source></source>
+        <description>'Lust for Life'</description>
+        <source>https://www.youtube.com/watch?v=DCtgv3ystzY</source>
         <rating n="4"></rating>
         <image>girlsalbum.jpg</image>
     </album>
@@ -58,8 +58,8 @@
         <artist ref="yolatengo">Yo La Tengo</artist>
         <year>2000</year>
         <genre>Rock</genre>
-        <description>'Cherry Chapstick', 'You Can Have It All'</description>
-        <source></source>
+        <description>'Cherry Chapstick'</description>
+        <source>https://www.youtube.com/watch?v=YkComcEnFHU</source>
         <rating n="5"></rating>
         <image>yolatengo.jpg</image>
     </album>
@@ -69,7 +69,7 @@
         <year>2015</year>
         <genre>Art Pop</genre>
         <description>'Realiti'</description>
-        <source></source>
+        <source>https://www.youtube.com/watch?v=N9XKLqGqwLA</source>
         <rating n="3"></rating>
         <image>grimes.jpg</image>
     </album>
@@ -78,8 +78,8 @@
         <artist ref="dirtybeaches">Dirty Beaches</artist>
         <year>2011</year>
         <genre>Rock</genre>
-        <description>'Sweet 17', 'True Blue'</description>
-        <source></source>
+        <description>'True Blue'</description>
+        <source>https://www.youtube.com/watch?v=rTch7g_gkfU</source>
         <rating n="3"></rating>
         <image>badlands.jpg</image>
     </album>
@@ -89,7 +89,7 @@
         <year>1978</year>
         <genre>Folk and country</genre>
         <description>'Sabu Visists the Twin Cities All Alone'</description>
-        <source></source>
+        <source>https://www.youtube.com/watch?v=0MlwTvNESLs</source>
         <rating n="3"></rating>
         <image>bruisedorange.jpg</image>
     </album>
@@ -99,7 +99,7 @@
         <year>1975</year>
         <genre>Jazz</genre>
         <description>'Nel Villaggio'</description>
-        <source></source>
+        <source>https://www.youtube.com/watch?v=S8_KWjiD5jo</source>
         <rating n="3"></rating>
         <image>nero.jpg</image>
     </album>
@@ -108,8 +108,8 @@
         <artist ref="bloodorange">Blood Orange</artist>
         <year>2013</year>
         <genre>R&amp;B</genre>
-        <description>'Chamakay', 'It Is What It Is'</description>
-        <source></source>
+        <description>'Chamakay'</description>
+        <source>https://www.youtube.com/watch?v=DfZMvTHJLUs</source>
         <rating n="3"></rating>
         <image>cupiddeluxe.jpg</image>
     </album>
@@ -118,8 +118,8 @@
         <artist ref="beachhouse">Beach House</artist>
         <year>2015</year>
         <genre>Dream pop</genre>
-        <description>'Levitation', 'Sparks'</description>
-        <source></source>
+        <description>'Space Song'</description>
+        <source>https://www.youtube.com/watch?v=RBtlPT23PTM</source>
         <rating n="3"></rating>
         <image>depressioncherry.jpg</image>
     </album>
@@ -128,8 +128,8 @@
         <artist ref="muddy">Muddy Waters</artist>
         <year>1968</year>
         <genre>Psychedelic Rock</genre>
-        <description>'Mannish Boy', 'Herbert Harper's Free Press News'</description>
-        <source></source>
+        <description>'Herbert Harper's Free Press News'</description>
+        <source>https://www.youtube.com/watch?v=THIsYGV1v-Y</source>
         <rating n="3"></rating>
         <image>electricmud.jpg</image>
     </album>
@@ -138,8 +138,8 @@
         <artist ref="valdy">Valdy</artist>
         <year>1974</year>
         <genre>Folk and country</genre>
-        <description>'One in the Spirit', 'Hello Mr. Record Man', Let Go of Me/Simple Life'</description>
-        <source></source>
+        <description>'Blue Canadian Rockies'</description>
+        <source>https://www.youtube.com/watch?v=9V2IV43w9Bg</source>
         <rating n="3"></rating>
         <image>valdy.jpg</image>
     </album>
@@ -148,8 +148,8 @@
         <artist ref="fleetfoxes">Fleet Foxes</artist>
         <year>2008</year>
         <genre>Folk and country</genre>
-        <description>'White Winter Hymnal', 'He Doesn't Know Why'</description>
-        <source></source>
+        <description>'He Doesn't Know Why'</description>
+        <source>https://www.youtube.com/watch?v=brZTvGIzeGg</source>
         <rating n="3"></rating>
         <image>fleetfoxes.jpg</image>
     </album>
@@ -158,8 +158,8 @@
         <artist ref="zandt">Townes van Zandt</artist>
         <year>1968</year>
         <genre>Folk and country</genre>
-        <description>'Wating 'Round to Die', 'I'll Be There in the Morning', 'For the Sake of the Song'</description>
-        <source></source>
+        <description>'I'll Be There in the Morning'</description>
+        <source>https://www.youtube.com/watch?v=BHVhcr-2y78</source>
         <rating n="3"></rating>
         <image>forthesakeofthesong.jpg</image>
     </album>
@@ -168,8 +168,8 @@
         <artist ref="ty">Ty Segall &amp; White Fence</artist>
         <year>2012</year>
         <genre>Psychedelic Rock</genre>
-        <description>'Scissor People', 'I Can't Get Around You', 'I Am Not a Game'</description>
-        <source></source>
+        <description>'Scissor People'</description>
+        <source>https://www.youtube.com/watch?v=WB0prce4eDA</source>
         <rating n="3"></rating>
         <image>hair.jpg</image>
     </album>
@@ -179,7 +179,7 @@
         <year>1989</year>
         <genre>Dream Pop</genre>
         <description>'The Downtown Lights'</description>
-        <source></source>
+        <source>https://www.youtube.com/watch?v=XQykMqS83XA</source>
         <rating n="3"></rating>
         <image>hats.jpg</image>
     </album>
@@ -188,8 +188,8 @@
         <artist ref="ellington">Duke Ellington and His Orchestra</artist>
         <year>1956</year>
         <genre>Jazz</genre>
-        <description>'Take the 'A' Train''</description>
-        <source></source>
+        <description>'Take the 'A' Train'</description>
+        <source>https://www.youtube.com/watch?v=dthGrehkuEk</source>
         <rating n="3"></rating>
         <image>hifiellington.jpg</image>
     </album>
@@ -198,8 +198,8 @@
         <artist ref="dirtybeaches">Dirty Beaches</artist>
         <year>2013</year>
         <genre>Rock</genre>
-        <description>'Casino Lisboa', 'Night Walk'</description>
-        <source></source>
+        <description>'Casino Lisboa'</description>
+        <source>https://www.youtube.com/watch?v=WOZFVFF-ATw</source>
         <rating n="3"></rating>
         <image>drifters.jpg</image>
     </album>
@@ -209,7 +209,7 @@
         <year>2010</year>
         <genre>Rock</genre>
         <description>'Jenny Jitters'</description>
-        <source></source>
+        <source>https://www.youtube.com/watch?v=EgNgH__dI60</source>
         <rating n="3"></rating>
         <image>thestance.jpg</image>
     </album>
@@ -218,8 +218,8 @@
         <artist ref="fatherjohnmisty">Father John Misty</artist>
         <year>2015</year>
         <genre>Rock</genre>
-        <description>'The Night Josh Tillman Came to Our Apt.', 'Bored in the USA'</description>
-        <source></source>
+        <description>'The Night Josh Tillman Came to Our Apt.'</description>
+        <source>https://www.youtube.com/watch?v=iY37fixfN_A</source>
         <rating n="3"></rating>
         <image>honeybear.jpg</image>
     </album>
@@ -229,7 +229,7 @@
         <year>1971</year>
         <genre>Blues and roots</genre>
         <description>'Something On Your Mind'</description>
-        <source></source>
+        <source>https://www.youtube.com/watch?v=CsYHN7eCCtU</source>
         <rating n="3"></rating>
         <image>inmyowntime.jpg</image>
     </album>
@@ -239,7 +239,7 @@
         <year>1979</year>
         <genre>Rock</genre>
         <description>'Romeo's Tune'</description>
-        <source></source>
+        <source>https://www.youtube.com/watch?v=ixTXmKauL8A</source>
         <rating n="3"></rating>
         <image>jackrabbitslim.jpg</image>
     </album>
@@ -248,8 +248,8 @@
         <artist ref="frank">Jackson C. Frank</artist>
         <year>1965</year>
         <genre>Folk and country</genre>
-        <description>'Blues Run the Game', 'Kimbie'</description>
-        <source></source>
+        <description>'Blues Run the Game'</description>
+        <source>https://www.youtube.com/watch?v=H8pp2BmplLI</source>
         <rating n="3"></rating>
         <image>jacksoncfrank.jpg</image>
     </album>
@@ -258,8 +258,8 @@
         <artist ref="destroyer">Destroyer</artist>
         <year>2011</year>
         <genre>Art pop</genre>
-        <description>'Kaputt', 'Suicide Demo for Kara Walker'</description>
-        <source></source>
+        <description>'Kaputt'</description>
+        <source>https://www.youtube.com/watch?v=puu3IvKnSb4</source>
         <rating n="3"></rating>
         <image>kaputt.jpg</image>
     </album>
@@ -268,8 +268,8 @@
         <artist ref="zandt">Townes van Zandt</artist>
         <year>1977</year>
         <genre>Folk and country</genre>
-        <description>'Rex's Blues', 'If I Needed You', 'Tecumseh Valley'</description>
-        <source></source>
+        <description>'Rex's Blues'</description>
+        <source>https://www.youtube.com/watch?v=ioJizJ93DdQ</source>
         <rating n="3"></rating>
         <image>oldquarter.jpg</image>
     </album>
@@ -279,7 +279,7 @@
         <year>1977</year>
         <genre>Art rock</genre>
         <description>'Marquee Moon', 'Friction'</description>
-        <source></source>
+        <source>https://www.youtube.com/watch?v=jlbunmCbTBA</source>
         <rating n="3"></rating>
         <image>marqueemoon.jpg</image>
     </album>
@@ -289,38 +289,138 @@
         <year>1969</year>
         <genre>Folk and country</genre>
         <description>'Be Here to Love Me'</description>
-        <source></source>
+        <source>https://www.youtube.com/watch?v=M15Oat49zTM</source>
         <rating n="3"></rating>
-        <image>oldquarter.jpg</image>
+        <image>ourmotherthemountain.jpg</image>
     </album>
     <album id="a28">
-        <title>Live at the Old Quarter, Houston, Texas</title>
-        <artist ref="zandt">Townes van Zandt</artist>
-        <year>1977</year>
-        <genre>Folk and country</genre>
-        <description>'Rex's Blues', 'If I Needed You', 'Tecumseh Valley'</description>
-        <source></source>
+        <title>Second Time Round</title>
+        <artist ref="cymande">Cymande</artist>
+        <year>1973</year>
+        <genre>Funk</genre>
+        <description>'Genevieve'</description>
+        <source>https://www.youtube.com/watch?v=oZ9y1MyH8hQ</source>
         <rating n="3"></rating>
-        <image>oldquarter.jpg</image>
+        <image>cymande.jpg</image>
     </album>
     <album id="a29">
-        <title>Live at the Old Quarter, Houston, Texas</title>
-        <artist ref="zandt">Townes van Zandt</artist>
-        <year>1977</year>
-        <genre>Folk and country</genre>
-        <description>'Rex's Blues', 'If I Needed You', 'Tecumseh Valley'</description>
-        <source></source>
+        <title>Still Life</title>
+        <artist ref="morby">Kevin Morby</artist>
+        <year>2014</year>
+        <genre>Rock</genre>
+        <description>'The Ballad of Arlo Jones'</description>
+        <source>https://www.youtube.com/watch?v=6FMX_1kTCfk</source>
         <rating n="3"></rating>
-        <image>oldquarter.jpg</image>
+        <image>kevinmorby.jpg</image>
     </album>
     <album id="a30">
-        <title>Live at the Old Quarter, Houston, Texas</title>
-        <artist ref="zandt">Townes van Zandt</artist>
-        <year>1977</year>
-        <genre>Folk and country</genre>
-        <description>'Rex's Blues', 'If I Needed You', 'Tecumseh Valley'</description>
-        <source></source>
+        <title>Sun Coming Down</title>
+        <artist ref="ought">Ought</artist>
+        <year>2015</year>
+        <genre>Art rock</genre>
+        <description>'Men for Miles'</description>
+        <source>https://www.youtube.com/watch?v=-lYIglAVAoY</source>
         <rating n="3"></rating>
-        <image>oldquarter.jpg</image>
+        <image>suncomingdown.jpg</image>
+    </album>
+    <album id="a31">
+        <title>Tanglewood Numbers</title>
+        <artist ref="silverjews">Silver Jews</artist>
+        <year>2005</year>
+        <genre>Rock</genre>
+        <description>'Punks in the Beerlight'</description>
+        <source>https://www.youtube.com/watch?v=VtA869eH21c</source>
+        <rating n="3"></rating>
+        <image>silverjews.jpg</image>
+    </album>
+    <album id="a32">
+        <title>American Water</title>
+        <artist ref="silverjews">Silver Jews</artist>
+        <year>1998</year>
+        <genre>Rock</genre>
+        <description>'Random Rules'</description>
+        <source>https://www.youtube.com/watch?v=jKl4Wpu75W0</source>
+        <rating n="3"></rating>
+        <image>americanwater.jpg</image>
+    </album>
+    <album id="a33">
+        <title>The Double EP: A Sea of Split Peas</title>
+        <artist ref="barnett">Courtney Barnett</artist>
+        <year>2014</year>
+        <genre>Rock</genre>
+        <description>'Avant Gardener'</description>
+        <source>https://www.youtube.com/watch?v=bcnIhzaDTd0</source>
+        <rating n="3"></rating>
+        <image>splitpeas.jpg</image>
+    </album>
+    <album id="a34">
+        <title>The Nightfly</title>
+        <artist ref="fagen">Donald Fagen</artist>
+        <year>1982</year>
+        <genre>Jazz rock</genre>
+        <description>'I.G.Y.'</description>
+        <source>https://www.youtube.com/watch?v=sogYgHlNnqo</source>
+        <rating n="3"></rating>
+        <image>thenightfly.jpg</image>
+    </album>
+    <album id="a35">
+        <title>The World Ends: Afro Rock &amp; Psychedelia in 1970s Nigeria (Part 1)</title>
+        <artist ref="various">Various Artists</artist>
+        <year>2010</year>
+        <genre>Psychedelic rock</genre>
+        <description>'Life's Gone Down Low' (The Lijadu Sisters)</description>
+        <source>https://www.youtube.com/watch?v=QokmEpiWmKA</source>
+        <rating n="3"></rating>
+        <image>worldends.jpg</image>
+    </album>
+    <album id="a36">
+        <title>Time Machine Blues</title>
+        <artist ref="owen">Owen Steel &amp; the Sad Turns</artist>
+        <year>2013</year>
+        <genre>Blues and roots</genre>
+        <description>'Get It Right'</description>
+        <source>https://owensteel.bandcamp.com/track/get-it-right</source>
+        <rating n="3"></rating>
+        <image>owensteel.jpg</image>
+    </album>
+    <album id="a37">
+        <title>Velvet Underground &amp; Nico</title>
+        <artist ref="velevetunderground">Velvet Underground &amp; Nico</artist>
+        <year>1967</year>
+        <genre>Art rock</genre>
+        <description>'Heroin'</description>
+        <source>https://www.youtube.com/watch?v=WZseqKBMq4c</source>
+        <rating n="3"></rating>
+        <image>velvetunderground.jpg</image>
+    </album>
+    <album id="a38">
+        <title>Cassette</title>
+        <artist ref="vietcong">Viet Cong</artist>
+        <year>2014</year>
+        <genre>Art rock</genre>
+        <description>'Static Wall'</description>
+        <source>https://www.youtube.com/watch?v=XuxcJ4wyCOY</source>
+        <rating n="3"></rating>
+        <image>cassette.jpg</image>
+    </album>
+    <album id="a39">
+        <title>Viet Cong</title>
+        <artist ref="vietcong">Viet Cong</artist>
+        <year>2015</year>
+        <genre>Art rock</genre>
+        <description>'March of Progress'</description>
+        <source>https://www.youtube.com/watch?v=GFNO-75Wl0k</source>
+        <rating n="3"></rating>
+        <image>vietcong.jpg</image>
+    </album>
+    <album id="a40">
+        <title>Kaleidoscope World</title>
+        <artist ref="chills">The Chills</artist>
+        <year>1986</year>
+        <genre>Rock</genre>
+        <description>'Pink Frost'</description>
+        <source>https://www.youtube.com/watch?v=PhMckVUyrpo</source>
+        <rating n="3"></rating>
+        <image>thechills.jpg</image>
     </album>
 </playlist>
