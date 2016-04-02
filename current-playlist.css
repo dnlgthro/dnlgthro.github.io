@@ -7,6 +7,52 @@
 
 /* responsive code from codeitdown.com */
 
+
+
+nav { 
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 200;
+    text-align: center;
+     
+   
+}
+
+ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 0;
+    overflow: hidden;
+    margin: auto;
+    align-content: center;
+    background-color: #403D3B;
+    border-radius: 0;
+    width: 100%;
+        
+}
+
+li {
+    display: inline-block;
+    
+  
+}
+
+nav li a {
+    display: block;
+    color: #FFFEFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    color: #7F7976;
+    background-color: #FFFEFF;
+}
+
+.active {
+    background-color: #FFFEFF;
+}
+
 article {
     margin: 5px 70px 100px 80px;
 }
@@ -16,9 +62,9 @@ section p, ul, ol {
     line-height: 1.5;
     }
 blockquote p {
-    font-family: courier, fixed, monospace;
-    font-size: 1.4em;
-    color: #493e8e;
+    font-family: "Century Gothic", "Tw Cen MT", Futura, "URW Gothic L", Arial, sans-serif;
+    font-size: 22px;
+    color: #403D3B;
 }
 span.normal {
     font-family: "Century Gothic", "Tw Cen MT", Futura, "URW Gothic L", Arial, sans-serif;
@@ -71,25 +117,31 @@ span.normal {
 
 /* main body code */
 
+body {
+    background-color: #FFFEFF
+}
+
 h1 {
-    font-family: "Century Gothic", "Tw Cen MT", Futura, "URW Gothic L", Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size:32px;
+    font-weight: 200;
     padding-left: 0px;
-    color: #8B2213;
+    color: #403D3B;
+    text-align: center;
 }
 h2 {
-    font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
-    color: #344C9D;
-    font-size: 28px;
-    font-weight: bold;
-    
-    padding-left: 0px;
+    font-family: Didot, serif;
+    color: #403D3B;
+    font-size: 24px;
+    font-style: italic;
+     padding-left: 0px;
+     
 }
 h3, h4 {
-    font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
+    font-family: Helvetica, Arial, sans-serif;
     color: #a64848;
     font-size: 22px;
-    font-weight: bold;
+   
     padding-left: 0px;
     font-variant: small-caps;
 }
@@ -100,11 +152,14 @@ figure {
     min-width: 150px;
     float: right;
     padding: ;
-    background-color: #efefef;
-    border: ;
-    opacity: 0.9;
+    background-color: #FFFEFF;
+    font-family: Georgia, serif;
+    font-size: 18px;
+    font-style: italic;
+    border: 1px #BFB6B1;
+    
     text-align: center;
-    box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow: 1px 1px 1px 1px #FFFEFF;
     
 }
 figure img {
@@ -113,6 +168,7 @@ figure img {
 }
 
 section {
+    font-family: Georgia, helvetica;
     border-bottom: 1px solid #ccc;
     padding-bottom: 20px;
     margin-bottom: 20px;
