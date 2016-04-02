@@ -27,7 +27,7 @@
                             <figure>
                                 <img>
                                     <xsl:attribute name="src">
-                                        <xsl:text>images/</xsl:text>
+                                        
                                         <xsl:value-of select="image"/>
                                     </xsl:attribute>
                                     <xsl:attribute name="alt">
