@@ -8,9 +8,20 @@
                 <link href="current-playlist.css" rel="stylesheet"/>
                 <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'/>
             </head>
+            <header>
+                <h1>Web Architecture &amp; Design Portfolio — Record Shelf</h1>
+            </header>
+            
+            <nav>
+                <ul>
+                    <li><a href="index2.html">Home</a></li>
+                    <li><a href="approach.html">Portfolio Approach</a></li>
+                    <li><a href="reading.html">Further Reading</a></li>
+                </ul>
+            </nav>
             <body>
                 <article>
-                    <h1>My Current Playlist: Winter 2016</h1>
+                   
                     <xsl:for-each select="album">
                         <xsl:sort select="artist/@ref" order="ascending"/>                        <section>
                             <figure>
@@ -40,12 +51,12 @@
                                 <b>Artist: </b>
                                 <xsl:value-of select="artist"/>
                             </p>
-                            <p><b>Release year</b>: <xsl:value-of select="year"/>
+                            <p><b>Year</b>: <xsl:value-of select="year"/>
                             </p>
                             <p><b>Genre</b>: <xsl:value-of select="genre"/>
                             </p>
                             <p>
-                                <b>Listen to:</b>
+                                <b>Time for only one song:</b>
                             </p>
                             <blockquote>
                                 <p>
@@ -56,8 +67,9 @@
                                     (<a>
                                         <xsl:attribute name="href"><xsl:value-of select="source"
                                             /></xsl:attribute>
-                                        <xsl:value-of select="title"/>
-                                    </a> ) </span></p>
+                                        <xsl:attribute name="target">_blank</xsl:attribute>
+                                        <xsl:text>Listen</xsl:text>
+                                    </a>) </span></p>
                             </blockquote>
 
                             <p><b>Rating</b>: <img>
