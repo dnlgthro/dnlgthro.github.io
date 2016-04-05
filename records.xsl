@@ -4,7 +4,7 @@
     <xsl:template match="playlist">
         <html>
             <head>
-                <title>My Current Playlist</title>
+                <title>Record Shelf</title>
                 <link href="current-playlist.css" rel="stylesheet"/>
                 <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'/>
             </head>
@@ -14,20 +14,33 @@
             
             <nav>
                 <ul>
-                    <li><a href="index2.html">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="approach.html">Portfolio Approach</a></li>
                     <li><a href="reading.html">Further Reading</a></li>
+                    <li><a href="records-display.html">Record Shelf</a></li>
+                </ul>
+            </nav>
+            <br></br>
+            <nav>
+                <ul>
+                    <li><a href="records-display-featured.html">Featured</a></li>
+                    <li><a href="records-display-rec.html">Highly Recommended</a></li>
+                    <li><a href="records-display-can.html">Canadian Content</a></li>
                 </ul>
             </nav>
             <body>
                 <article>
                    
                     <xsl:for-each select="album">
-                        <xsl:sort select="artist/@ref" order="ascending"/>                        <section>
+                        <xsl:sort select="artist/@ref" order="ascending"/>                        
+                        
+                        <section>
+                                <p></p>
+                            
                             <figure>
                                 <img>
                                     <xsl:attribute name="src">
-                                        
+                                        <xsl:text>images/</xsl:text>
                                         <xsl:value-of select="image"/>
                                     </xsl:attribute>
                                     <xsl:attribute name="alt">
@@ -70,19 +83,26 @@
                                         <xsl:attribute name="target">_blank</xsl:attribute>
                                         <xsl:text>Listen</xsl:text>
                                     </a>) </span></p>
+                                
                             </blockquote>
+                            <xsl:choose>
+                                <xsl:when test="./@status = 'essential'">
+                                    <h3 style="bold">Highly recommended</h3>
+                                </xsl:when>
+                                <xsl:when test="./@status='can'">
+                                    <h3>Canadian</h3>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <xsl:text> </xsl:text>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                            <br></br>
+                            <br></br>
+                            
 
-                            <p><b>Rating</b>: <img>
-                                    <xsl:attribute name="src">
-                                        <xsl:text>images/stars_</xsl:text>
-                                        <xsl:value-of select="rating/@n"/>
-                                        <xsl:text>.gif</xsl:text>
-                                    </xsl:attribute>
-                                    <xsl:attribute name="alt">
-                                        <xsl:value-of select="rating"/>
-                                    </xsl:attribute>
-                                </img>
-                            </p>
+                            
+                                
+                                
                         </section>
                     </xsl:for-each>
                 </article>
