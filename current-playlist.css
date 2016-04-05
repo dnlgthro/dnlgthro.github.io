@@ -121,8 +121,18 @@ body {
     background-color: #FFFEFF
 }
 
+div {
+    font-family: Didot, Georgia, serif;
+    font-size: 52px;
+    font-style: italic;
+    color:  black;
+    text-align: center;
+    
+    
+}
+
 h1 {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Didot, Georgia, serif;
     font-size:32px;
     font-weight: 200;
     padding-left: 0px;
@@ -138,12 +148,12 @@ h2 {
      
 }
 h3, h4 {
-    font-family: Helvetica, Arial, sans-serif;
-    color: #a64848;
-    font-size: 22px;
+    font-family: Didot, Georgia, serif;
+    color: #E74C3C;
+    font-size: 17px;
+    font-weight: 200;
    
-    padding-left: 0px;
-    font-variant: small-caps;
+    
 }
 
 /* figures */
