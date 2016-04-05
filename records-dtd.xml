@@ -13,6 +13,7 @@
 <!ELEMENT image (#PCDATA)>          
 <!ATTLIST album
     id ID #REQUIRED
+    status CDATA #IMPLIED
     >
 <!ATTLIST artist 
     ref CDATA #IMPLIED
@@ -23,7 +24,7 @@
 ]>
 
 <playlist>
-    <album id="a01">
+    <album id="a01" status="essential">
         <title>Adventure</title>
         <artist ref="television">Television</artist>
         <year>1978</year>
@@ -31,7 +32,7 @@
         <description>'Carried Away'</description>
         <source>https://www.youtube.com/watch?v=rIbweWhtLW0</source>
         <rating n="4"></rating>
-        <image>http://i.imgur.com/njRkGy8.jpg</image>
+        <image>adventure.jpg</image>
     </album>
     <album id="a02">
         <title>Aja</title>
@@ -63,7 +64,7 @@
         <rating n="5"></rating>
         <image>yolatengo.jpg</image>
     </album>
-    <album id="a05">
+    <album id="a05" status="can">
         <title>Art Angels</title>
         <artist ref="grimes">Grimes</artist>
         <year>2015</year>
@@ -73,7 +74,7 @@
         <rating n="3"></rating>
         <image>grimes.jpg</image>
     </album>
-    <album id="a06">
+    <album id="a06" status="can">
         <title>Badlands</title>
         <artist ref="dirtybeaches">Dirty Beaches</artist>
         <year>2011</year>
@@ -83,7 +84,7 @@
         <rating n="3"></rating>
         <image>badlands.jpg</image>
     </album>
-    <album id="a07">
+    <album id="a07" status="essential">
         <title>Bruised Orange</title>
         <artist ref="prine">John Prine</artist>
         <year>1978</year>
@@ -121,7 +122,7 @@
         <description>'Space Song'</description>
         <source>https://www.youtube.com/watch?v=RBtlPT23PTM</source>
         <rating n="3"></rating>
-        <image>http://imgur.com/yiKcz7p</image>
+        <image>depressioncherry.jpg</image>
     </album>
     <album id="a11">
         <title>Electric Mud</title>
@@ -133,7 +134,7 @@
         <rating n="3"></rating>
         <image>electricmud.jpg</image>
     </album>
-    <album id="a12">
+    <album id="a12" status="can">
         <title>Family Gathering</title>
         <artist ref="valdy">Valdy</artist>
         <year>1974</year>
@@ -143,7 +144,7 @@
         <rating n="3"></rating>
         <image>valdy.jpg</image>
     </album>
-    <album id="a13">
+    <album id="a13" status="essential">
         <title>Fleet Foxes</title>
         <artist ref="fleetfoxes">Fleet Foxes</artist>
         <year>2008</year>
@@ -173,7 +174,7 @@
         <rating n="3"></rating>
         <image>hair.jpg</image>
     </album>
-    <album id="a16">
+    <album id="a16" status="essential">
         <title>Hats</title>
         <artist ref="bluenile">The Blue Nile</artist>
         <year>1989</year>
@@ -193,7 +194,7 @@
         <rating n="3"></rating>
         <image>hifiellington.jpg</image>
     </album>
-    <album id="a18">
+    <album id="a18" status="can">
         <title>Drifters / Love is the Devil</title>
         <artist ref="dirtybeaches">Dirty Beaches</artist>
         <year>2013</year>
@@ -203,7 +204,7 @@
         <rating n="3"></rating>
         <image>drifters.jpg</image>
     </album>
-    <album id="a19">
+    <album id="a19" status="can">
         <title>I Left Love Behind a Long Time Ago</title>
         <artist ref="stance">The Stance</artist>
         <year>2010</year>
@@ -253,7 +254,7 @@
         <rating n="3"></rating>
         <image>jacksoncfrank.jpg</image>
     </album>
-    <album id="a24">
+    <album id="a24" status="can">
         <title>Kaputt</title>
         <artist ref="destroyer">Destroyer</artist>
         <year>2011</year>
@@ -263,7 +264,7 @@
         <rating n="3"></rating>
         <image>kaputt.jpg</image>
     </album>
-    <album id="a25">
+    <album id="a25" status="essential">
         <title>Live at the Old Quarter, Houston, Texas</title>
         <artist ref="zandt">Townes van Zandt</artist>
         <year>1977</year>
@@ -273,7 +274,7 @@
         <rating n="3"></rating>
         <image>oldquarter.jpg</image>
     </album>
-    <album id="a26">
+    <album id="a26" status="essential">
         <title>Marquee Moon</title>
         <artist ref="television">Television</artist>
         <year>1977</year>
@@ -283,7 +284,7 @@
         <rating n="3"></rating>
         <image>marqueemoon.jpg</image>
     </album>
-    <album id="a27">
+    <album id="a27" status="essential">
         <title>Our Mother the Mountain</title>
         <artist ref="zandt">Townes van Zandt</artist>
         <year>1969</year>
@@ -313,7 +314,7 @@
         <rating n="3"></rating>
         <image>kevinmorby.jpg</image>
     </album>
-    <album id="a30">
+    <album id="a30" status="can">
         <title>Sun Coming Down</title>
         <artist ref="ought">Ought</artist>
         <year>2015</year>
@@ -323,7 +324,7 @@
         <rating n="3"></rating>
         <image>suncomingdown.jpg</image>
     </album>
-    <album id="a31">
+    <album id="a31" status="essential">
         <title>Tanglewood Numbers</title>
         <artist ref="silverjews">Silver Jews</artist>
         <year>2005</year>
@@ -333,7 +334,7 @@
         <rating n="3"></rating>
         <image>silverjews.jpg</image>
     </album>
-    <album id="a32">
+    <album id="a32" status="essential">
         <title>American Water</title>
         <artist ref="silverjews">Silver Jews</artist>
         <year>1998</year>
@@ -351,7 +352,7 @@
         <description>'Avant Gardener'</description>
         <source>https://www.youtube.com/watch?v=bcnIhzaDTd0</source>
         <rating n="3"></rating>
-        <image>http://i.imgur.com/JZqjUkw.jpg</image>
+        <image>splitpeas.jpg</image>
     </album>
     <album id="a34">
         <title>The Nightfly</title>
@@ -373,7 +374,7 @@
         <rating n="3"></rating>
         <image>worldends.jpg</image>
     </album>
-    <album id="a36">
+    <album id="a36" status="can">
         <title>Time Machine Blues</title>
         <artist ref="owen">Owen Steel &amp; the Sad Turns</artist>
         <year>2013</year>
@@ -393,7 +394,7 @@
         <rating n="3"></rating>
         <image>velvetunderground.jpg</image>
     </album>
-    <album id="a38">
+    <album id="a38" status="can">
         <title>Cassette</title>
         <artist ref="vietcong">Viet Cong</artist>
         <year>2014</year>
@@ -403,7 +404,7 @@
         <rating n="3"></rating>
         <image>cassette.jpg</image>
     </album>
-    <album id="a39">
+    <album id="a39" status="can">
         <title>Viet Cong</title>
         <artist ref="vietcong">Viet Cong</artist>
         <year>2015</year>
@@ -413,7 +414,7 @@
         <rating n="3"></rating>
         <image>vietcong.jpg</image>
     </album>
-    <album id="a40">
+    <album id="a40" status="essential">
         <title>Kaleidoscope World</title>
         <artist ref="chills">The Chills</artist>
         <year>1986</year>
